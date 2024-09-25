@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet');
+
+
+.serv-container{
+    display: flex;
+    width: calc(250px + 30vw);
+    height: calc(150px + 8vw);
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-bottom: calc(30px + 2vw);
+    color: white;
+    border-radius: 20px;
+}
+
+
+.serv-image{
+    display: flex;
+    width: calc(150px + 8vw);
+    height: calc(150px + 8vw);
+}
+
+.serv-left-container{
+  //background-color: green;
+  display: flex;
+  flex-direction: column;
+  min-width: calc(80px + 6vw);
+  max-width: calc(80px + 6vw);
+  justify-content: center;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.serv-right-container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  flex-direction: column;
+}
+
+.serv-button-container{
+  display: flex;
+  justify-content: center;   
+  width: 100%;
+  height: flex;
+  object-fit: contain;
+  margin-top: auto;
+  margin-bottom: 10%;
+}
+
+.serv-button{
+  color: white;
+  background-color: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: flex;
+  height: 100%;
+  padding: 1% 2% 1% 2%;
+
+  border-width: calc(1px + 0.08vw);
+  border-style: solid;
+  border-radius: 25px;
+  border-color: white;
+  font-size: calc(5px + 0.5vw);
+  font-family: "Geologica", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0,
+    "SHRP" 0;
+    font-weight: bold;
+  }
+
+.serv-button:hover{
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+
+.serv-header{
+  font-family: "Geologica", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0,
+    "SHRP" 0;
+    //color: #555555;
+    //color: #572D87;
+    font-size: calc(10px + 0.6vw);
+    margin-top: calc(30px + 1.6vw);
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .serv-header2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    //color: #555555;
+    //color: #572D87;
+    font-size: calc(5px + 0.4vw);
+    margin-top: 30%;
+    letter-spacing: 2px;
+  }
+  
+  .serv-text{
+    font-family: "Old Standard TT";
+    //color: #555555;
+    //color: #572D87;
+    font-size: calc(5px + 0.4vw);
+    font-weight: 200;
+    margin-top: calc(15px + 0.5vw);
+    line-height: calc(5px + 1vw);
+    text-decoration: inherit;
+  }
+  
+  .p36{
+    font-family: "Old Standard TT";
+    //color: #555555;
+    //color: #572D87;
+    font-size: calc(11px + 0.1vw);
+    font-weight: 200;
+    line-height: 35px;
+    text-decoration: inherit;
+  }
+  

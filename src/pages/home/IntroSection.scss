@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.intr-container {
+    //background-color: #703A7D;
+    background: linear-gradient(60deg, rgb(206, 206, 206) 0%, rgb(231, 231, 231) 35%, rgb(255, 255, 255) 100%);
+    width: 100%;
+    min-height: calc(350px + 14vw);
+    height: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    z-index: 21;
+    overflow: hidden;
+    padding: 20px 0 20px 0;
+}
+
+.intrc-container{
+    //Have to be rgba with opacity at the end or the other child elements inside fc-container will also be affected by the opacity!
+    background-color: none;
+    width: calc(200px + 40vw);
+    height: 100%;
+
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    object-fit: contain;
+}
+
+.intr-circle-container{
+
+    display: flex;
+    width: calc(100px + 7vw);
+    height: calc(100px + 7vw);
+    justify-content: center;
+    align-content: center;    
+}
+
+.intr-circle{
+    background: url('../../../public/images/sp-image1.jpg') center center/cover no-repeat;
+    width: 93%;
+    height: 93%;
+    margin: 3px;
+    border-radius: 100%;
+    justify-self: center;
+}
+.intr-outer-circle{
+    display: flex;
+    border-width: calc(1px + 0.06vw);
+    border-color: white;
+    border-style: solid;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.intr-text-container{
+    display: flex;
+    width: 70%;
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.intrctext{
+    font-family: "Dancing Script", cursive;
+    //font-family: "Old Standard TT";
+    color: black;
+    font-size: calc(16px + 0.7vw);
+    font-weight: 600;
+    line-height: 1.5;
+
+    text-decoration: inherit;
+}
+
+@media screen and (max-width: 1700px) {
+    .intrc-container{
+        flex-direction: column;
+    }
+
+    .intr-circle-container{
+
+        margin-top: 20px;    
+    }
+    .intr-text-container{
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+
+    .intr-text-container{
+        width: 90%;
+    }
+}
