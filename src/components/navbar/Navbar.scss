@@ -41,7 +41,7 @@
 }
 
 .nav div.logo a:hover {
-    color: #006936;
+    color: #56607e;
 }
 
 .nav div.main_list {
@@ -77,7 +77,10 @@
 }
 
 .nav div.main_list ul li a:hover {
-    color: #00703a;
+    color: #56607e;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;  // Thickness of the underscore
+    text-underline-offset: 5px;      // Space between the text and the underline
 }
 
 
