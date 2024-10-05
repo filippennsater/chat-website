@@ -4,7 +4,7 @@
 
 
 .contact-container {
-    background-color: #2f7745;
+    background-color: #323746;
     width: 100%;
     min-height: 100vh;
     height: flex;
@@ -55,6 +55,7 @@
     flex-direction: column;
     margin: 5%;
     margin-top: 50px;
+    color: white;
 }
 
 .right-container{
@@ -148,7 +149,7 @@
 
 .suggestion-button{
     color: white;
-    background-color: #031f00;
+    background-color: #111c42;
     width: 50%;
     padding: calc(5px + 0.1vw);
     margin-top: 40px;
