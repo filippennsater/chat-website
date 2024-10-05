@@ -76,7 +76,7 @@ function ContactSection() {
                     </div>
                     <div className='h30'>Kontakta oss!</div>
                     <div className='p30'>
-                        Nedan kan du snabbt skriva ett meddelande till oss!<br /><br />
+                        Nedan kan du snabbt skriva ett meddelande till oss på GovCare!<br /><br />
                     </div>
                     <form id="myForm" ref={form} onSubmit={sendEmail}>
                         <div className='small-header-wrap-suggestion'>

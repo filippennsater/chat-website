@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet');
 
 
 .contact-container {
@@ -72,7 +72,9 @@
 
 
 .h30{
-    font-family: "Dancing Script", cursive;
+    font-family: "Mate SC", system-ui;
+    font-weight: 400;
+    font-style: normal;
     font-size: calc(35px + 0.2vw);
     margin-top: calc(15px + 1vw);
     letter-spacing: 2px;
