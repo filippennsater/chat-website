@@ -68,7 +68,7 @@ function Navbar() {
                         <ul className="navlinks">
                             <li><Link to='/'>Hem</Link></li>
                             <li><Link to='/about'>Om</Link></li>
-                            <li><Link to='/servicesList'>Assistent</Link></li>
+                            <li><Link to='/assistant'>Assistent</Link></li>
                             <li><Link to='/contact'>Kontakt</Link></li>
                         </ul>
                     </div>
