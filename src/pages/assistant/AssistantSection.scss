@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
-.servicesList-container {
+.assistant-container {
     //background: url('../../../public/images/streetView-BnW.jpg') center center/cover no-repeat fixed;
     background-color: #889138;
     width: 100%;
@@ -15,7 +15,7 @@
     padding-bottom: 20px;
 }
 
-.servicesList-header{
+.assistant-header{
     color: white;
     font-size: calc(25px + 1.8vw);
     font-family: "Dancing Script", cursive;
