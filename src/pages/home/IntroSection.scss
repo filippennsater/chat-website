@@ -40,28 +40,6 @@
     align-content: center;    
 }
 
-.intr-circle{
-    background: url('../../../public/images/sp-image1.jpg') center center/cover no-repeat;
-    width: 93%;
-    height: 93%;
-    margin: 3px;
-    border-radius: 100%;
-    justify-self: center;
-}
-.intr-outer-circle{
-    display: flex;
-    border-width: calc(1px + 0.06vw);
-    border-color: white;
-    border-style: solid;
-    border-radius: 100%;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    
-}
-
 .intr-text-container{
     display: flex;
     width: 70%;
