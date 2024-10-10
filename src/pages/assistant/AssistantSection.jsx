@@ -8,10 +8,6 @@ function AssistantSection() {
 
         <div className='assistant-container'>
 
-            <div className='assistant-header'>Assistent</div>
-
-            
-
         </div>
 
     )

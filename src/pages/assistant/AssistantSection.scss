@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-
 .assistant-container {
     //background: url('../../../public/images/streetView-BnW.jpg') center center/cover no-repeat fixed;
     background-color: #10101d;
@@ -14,11 +12,3 @@
     overflow: hidden;
     padding-bottom: 20px;
 }
-
-.assistant-header{
-    color: white;
-    font-size: calc(25px + 1.8vw);
-    font-family: "Dancing Script", cursive;
-    margin-bottom: calc(30px + 2vw);
-    margin-top: calc(80px + 3vw);
-  }
