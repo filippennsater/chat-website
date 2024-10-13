@@ -18,15 +18,15 @@ function Footer() {
 
                     <div className='footer-link-items'>
                         <div className='footer-header'>Om</div>
-                        <div className='p3'>Susanne Pennsäter</div>
+                        <div className='p3'>GovCare AB</div>
                         <div className='p3'>Sweden, Skåne, Lund</div>
-                        <div className='p3'>KBT-terapeut</div>
+                        <div className='p3'>AI-chat assistant</div>
                     </div>
 
                     <div className='footer-link-items'>
                         <div className='footer-header'>Kontakt</div>
-                        <div className='p3'>0702884886</div>
-                        <div className='p3'>-@gmail.com</div>
+                        <div className='p3'>0700907172</div>
+                        <div className='p3'>GovCare@gmail.com</div>
                     </div>
 
                 </div>
