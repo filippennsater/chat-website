@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
 
 .intr-container {
     //background-color: #703A7D;
     background: linear-gradient(60deg, rgb(206, 206, 206) 0%, rgb(231, 231, 231) 35%, rgb(255, 255, 255) 100%);
     width: 100%;
-    min-height: calc(350px + 14vw);
+    min-height: calc(350px + 20vw);
     height: flex;
     display: flex;
     flex-direction: column;
@@ -31,8 +31,8 @@
     object-fit: contain;
 }
 
-.intr-circle-container{
-
+.intr-image-container{
+    background: url('../../../public/images/robo.png') center center/cover no-repeat;
     display: flex;
     width: calc(100px + 7vw);
     height: calc(100px + 7vw);
@@ -51,11 +51,11 @@
 }
 
 .intrctext{
-    font-family: "Dancing Script", cursive;
-    //font-family: "Old Standard TT";
+    font-family: "Mate SC", serif;
+    font-weight: 400;
+    font-style: normal;
     color: black;
     font-size: calc(16px + 0.7vw);
-    font-weight: 600;
     line-height: 1.5;
 
     text-decoration: inherit;
