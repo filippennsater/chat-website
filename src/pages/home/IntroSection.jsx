@@ -8,7 +8,7 @@ function IntroSection() {
     <div className='intr-container'>
       <div className='intrc-container'>
         <div className='intr-text-container'>
-          <div className='intrctext'>
+          <div className='intrctext3'>
             Hello and welcome!
             <br /><br/>
             I am your virtual HR assistant, designed to quickly and efficiently answer your questions about personnel matters and employment law.<br/>My role is to simplify your workday by providing accurate and up-to-date responses, whether it's about employment conditions, leave requests, or other HR-related topics.

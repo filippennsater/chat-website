@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300..700&family=Belleza&family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300..700&family=Mate+SC&display=swap');
+
 
 .intr-container {
     //background-color: #703A7D;
@@ -49,6 +52,23 @@
     align-items: center;
     
 }
+
+.intrctext3{
+    font-family: "Akshar", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: calc(16px + 0.7vw);
+    line-height: 1.2;
+  }
+
+.intrctext2{
+    font-family: "Belleza", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: calc(16px + 0.7vw);
+    line-height: 1.2;
+  }
 
 .intrctext{
     font-family: "Mate SC", serif;
