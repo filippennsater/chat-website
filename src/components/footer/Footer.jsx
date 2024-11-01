@@ -17,14 +17,14 @@ function Footer() {
                 <div className='footer-link-wrapper'>
 
                     <div className='footer-link-items'>
-                        <div className='footer-header'>Om</div>
+                        <div className='footer-header'>About</div>
                         <div className='p3'>GovCare AB</div>
                         <div className='p3'>Sweden, Skåne, Lund</div>
                         <div className='p3'>AI-chat assistant</div>
                     </div>
 
                     <div className='footer-link-items'>
-                        <div className='footer-header'>Kontakt</div>
+                        <div className='footer-header'>Contact</div>
                         <div className='p3'>0700907172</div>
                         <div className='p3'>GovCare@gmail.com</div>
                     </div>
@@ -34,14 +34,14 @@ function Footer() {
                 <div className='footer-link-wrapper'>
 
                     <div className='footer-link-items'>
-                        <div className='footer-header'>Rättigheter</div>
+                        <div className='footer-header'>Rights</div>
                         <Link to='https://opensource-7d53e.web.app' target='_blank'>Open source</Link>
                         <Link to='https://mediainformation-ca3b9.web.app' target='_blank'>AI created media</Link>
                         <Link to='https://userinformation-76154.web.app' target='_blank'>ToS and PP</Link>
                     </div>
 
                     <div className='footer-link-items'>
-                        <div className='footer-header'>Länkar</div>
+                        <div className='footer-header'>Links</div>
                         <Link to='https://www.linkedin.com/in/susanne-penns%C3%A4ter-2a0636138/' target='_blank'>LinkedIn</Link>
                         <Link to='' target='_blank'>Google business</Link>
 
