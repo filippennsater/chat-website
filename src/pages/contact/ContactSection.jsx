@@ -63,24 +63,24 @@ function ContactSection() {
         <div className='contact-container'>
             <div className='contact-info-wrap'>
                 <div className='left-container'>
-                    <div className='h30'><br />Telefon</div>
+                    <div className='h30'><br />Phone</div>
                     <div className='p30'>
                         000-000 00 00<br />
-                        Våra telefontider är mellan 9:00 och 17:00, måndag till fredag.
+                        Our phone hours are between 9:00 a.m. and 5:00 p.m., Monday to Friday.
                     </div>
                     <div className='h30'>Adress</div>
                     <div className='p30'>
-                        SP-Health<br />
+                        GovCare AB<br />
                         Make-Believe Lane 00<br />
                         000 00 LUND
                     </div>
-                    <div className='h30'>Kontakta oss!</div>
+                    <div className='h30'>Contact us!</div>
                     <div className='p30'>
-                        Nedan kan du snabbt skriva ett meddelande till oss på GovCare!<br /><br />
+                        Here, you can quickly write a message to us at GovCare!<br /><br />
                     </div>
                     <form id="myForm" ref={form} onSubmit={sendEmail}>
                         <div className='small-header-wrap-suggestion'>
-                            <div className='p30'>Namn</div>
+                            <div className='p30'>Name</div>
                         </div>
                         <div className='suggestion-input-wrap'>
                             <input
@@ -104,7 +104,7 @@ function ContactSection() {
                             />
                         </div>
                         <div className='small-header-wrap-suggestion'>
-                            <div className='p30'>Meddelande</div>
+                            <div className='p30'>Message</div>
                         </div>
                         <div className='suggestion-input-wrap'>
                             <textarea
@@ -123,10 +123,10 @@ function ContactSection() {
                     </form>
                     <ThemeContext.Provider value={{ theS, resetForm }}>
                         {theS === "sent" && (
-                            <div className='confText'><br />Meddelandet skickat ✓</div>
+                            <div className='confText'><br />Message sent ✓</div>
                         )}
                         {error && (
-                            <div className='errorText'><br />Vänligen fyll i alla fälten!</div>
+                            <div className='errorText'><br />Please fill in all fields!</div>
                         )}
                     </ThemeContext.Provider>
                 </div>
