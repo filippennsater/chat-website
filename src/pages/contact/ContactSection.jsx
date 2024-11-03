@@ -92,7 +92,7 @@ function ContactSection() {
                             />
                         </div>
                         <div className='small-header-wrap-suggestion'>
-                            <div className='p30'>Mail</div>
+                            <div className='p30'>E-mail</div>
                         </div>
                         <div className='suggestion-input-wrap'>
                             <input
@@ -118,7 +118,7 @@ function ContactSection() {
                         <input
                             className='suggestion-button cursor-pointer'
                             type="submit"
-                            value="Skicka"
+                            value="Send"
                         />
                     </form>
                     <ThemeContext.Provider value={{ theS, resetForm }}>

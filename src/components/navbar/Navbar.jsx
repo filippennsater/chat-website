@@ -66,10 +66,10 @@ function Navbar() {
                     </div>
                     <div id="mainListDiv" className="main_list">
                         <ul className="navlinks">
-                            <li><Link to='/'>Hem</Link></li>
-                            <li><Link to='/about'>Om</Link></li>
+                            <li><Link to='/'>Home</Link></li>
+                            <li><Link to='/about'>About</Link></li>
                             <li><Link to='/assistant'>Assistent</Link></li>
-                            <li><Link to='/contact'>Kontakt</Link></li>
+                            <li><Link to='/contact'>Contact</Link></li>
                         </ul>
                     </div>
                     <span className="navTrigger">
