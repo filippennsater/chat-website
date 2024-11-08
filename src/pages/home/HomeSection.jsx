@@ -15,7 +15,7 @@ function HomeSection() {
                 <figure className="home-self" />
             </div>
             <div className='intro-text'>
-                <h1>Your Virtual Assistant for HR and Healthcare Services</h1>
+                <div className='h1-container'>Your Virtual Assistant for HR and Healthcare Services</div>
             </div>
         </div>
     )
