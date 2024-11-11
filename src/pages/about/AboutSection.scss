@@ -5,8 +5,6 @@
 
 
 .about-container{
-    //background: url('../../../public/images/chamomile-big.png') center center/cover no-repeat;
-    //background-attachment:  fixed;
     background-color: #48475f;
     min-height: 100vh;
     height: flex;
@@ -22,7 +20,6 @@
 }
 
 .cards-container {
-    //background-color: black;
     display: flex;
     width: flex;
     padding: 10px;
@@ -39,9 +36,6 @@
     border-radius: 20px;
     border-width: 1px;
     border-color: #000000;
-    //border-style:solid;
-    //box-shadow: 0px 10px 10px -5px rgba(255, 255, 255, 0.5), 
-    //10px 0px 10px -5px rgba(255, 255, 255, 0.5);    //text-align: center;
     flex-flow: column;
     padding: calc(10px + 0.3vw);
 }
