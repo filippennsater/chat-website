@@ -10,6 +10,10 @@ function FAQSection() {
 
         <div className='FAQ-container'>
 
+            <div className='Q-container'>
+
+            </div>
+
         </div>
     )
 }
