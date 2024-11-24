@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet');
+
 .FAQ-container {
     background-color: #2a2a4e;
     width: 100%;
@@ -24,9 +28,26 @@
     overflow: hidden;
 }
 
+.FAQ-header {
+    color: black;    
+    font-family: "Mate SC", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: calc(35px + 1vw);
+    margin-top: calc(15px + 1vw);
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
 .Q-header {
     color: black;    
-    
+    font-family: "Mate SC", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: calc(35px + 0.2vw);
+    margin-top: calc(15px + 1vw);
+    letter-spacing: 2px;
+    font-weight: bold;
 }
 
 .Q-container {
