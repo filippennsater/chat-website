@@ -6,10 +6,10 @@
     flex-direction: column;
     
     align-items: center;
+    justify-content: center;
     object-fit: contain;
     z-index: -1;
     overflow: hidden;
-    padding-bottom: 20px;
 }
 
 .QS-container {
@@ -21,9 +21,12 @@
     
     align-items: center;
     object-fit: contain;
-    z-index: -1;
     overflow: hidden;
-    padding-bottom: 20px;
+}
+
+.Q-header {
+    color: black;    
+    
 }
 
 .Q-container {
@@ -35,7 +38,5 @@
     
     align-items: center;
     object-fit: contain;
-    z-index: -1;
     overflow: hidden;
-    padding-bottom: 20px;
 }
