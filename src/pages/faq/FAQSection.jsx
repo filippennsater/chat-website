@@ -12,15 +12,15 @@ function FAQSection() {
 
             <div className='QS-container'>
                 <div className='FAQ-header'>
-FAQS
+                    FAQS
                 </div>
 
                 <div className='Q-container'>
                     <div className='Q-header'>
-LOL
+                        LOL
                     </div>
                 </div>
-
+                
             </div>
 
         </div>
