@@ -20,7 +20,6 @@
 .QS-container {
     background-color: #ffffff;
     width: calc(200px + 40vw);
-    //height: 10vh;
     display: flex;
     flex-direction: column;
     
@@ -36,6 +35,7 @@
     height: 10vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     
     align-items: left;
     object-fit: contain;
