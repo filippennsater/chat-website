@@ -20,6 +20,18 @@ function FAQSection() {
                         LOL
                     </div>
                 </div>
+
+                <div className='Q-container'>
+                    <div className='Q-header'>
+                        LOL
+                    </div>
+                </div>
+
+                <div className='Q-container'>
+                    <div className='Q-header'>
+                        LOL
+                    </div>
+                </div>
                 
             </div>
 
