@@ -35,11 +35,12 @@
     height: 10vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    //justify-content: center;
     
     align-items: left;
     object-fit: contain;
     overflow: hidden;
+    border-bottom: 3px solid black;
 }
 
 .FAQ-header {
