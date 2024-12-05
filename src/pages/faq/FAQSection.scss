@@ -30,9 +30,9 @@
 }
 
 .FAQ-header-container {
-    background-color: #c98f24;
+    background-color: white;
     width: 100%;
-    height: calc(50px + 4vw);
+    height: calc(60px + 6vw);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,20 +46,18 @@
 }
 
 .Q-container {
-    background-color: #695227;
-    width: 100%;
-    height: calc(40px + 4vw);
+    background-color: #ffffff;
+    width: calc(200px + 40vw);
     display: flex;
     flex-direction: column;
-    //justify-content: center;
-    padding-left: calc(5px + 1vw);
-    padding-right: calc(5px + 1vw);
-    
     align-items: left;
     object-fit: contain;
     overflow: hidden;
+    margin-bottom: calc(20px);
     border-bottom: 3px solid black;
-}
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
 
 .FAQ-header {
     color: black;    
@@ -73,12 +71,27 @@
 }
 
 .Q-header {
-    color: black;    
+    color: black;
     font-family: "Mate SC", system-ui;
     font-weight: 400;
-    font-style: normal;
     font-size: calc(20px + 0.7vw);
-    margin-top: calc(15px + 1vw);
-    letter-spacing: 2px;
-    font-weight: bold;
-}
+    padding: 10px;
+  }
+
+  .Q-answer {
+    color: black;
+    font-family: "Mate SC", system-ui; /* Same as Q-header */
+    font-size: calc(20px + 0.7vw);
+    padding: 10px;
+    overflow: hidden;
+    max-height: 0; /* Initially hidden */
+    transition: max-height 0.3s ease, padding 0.3s ease; /* Smooth animation */
+  }
+  
+  .Q-answer.show {
+    max-height: 200px; /* Arbitrary large value to accommodate the content */
+    padding: 10px;
+  }
+  .Q-container:hover {
+    background-color: #f4f4f4;
+  }

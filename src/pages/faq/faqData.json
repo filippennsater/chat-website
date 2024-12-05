@@ -1,14 +1,42 @@
 [
     {
-      "question": "How can I get an account?",
-      "answer": "You can get an account by signing up on our registration page."
+      "question": "How can I create an account?",
+      "answer": "Creating an account is simple. Just click on the 'Sign Up' button at the top right corner of the homepage, fill out your details, and verify your email address. Once completed, you'll have full access to our platform."
     },
     {
-      "question": "What is the refund policy?",
-      "answer": "Our refund policy allows you to request a refund within 30 days of purchase."
+      "question": "What should I do if I forget my password?",
+      "answer": "If you've forgotten your password, click on 'Forgot Password' on the login page. Enter your registered email address, and we'll send you a link to reset your password. Make sure to check your spam folder if you don't see the email."
     },
     {
-      "question": "How do I reset my password?",
-      "answer": "Click on 'Forgot Password' on the login page and follow the instructions."
+      "question": "Can I change my subscription plan?",
+      "answer": "Yes, you can upgrade or downgrade your subscription plan at any time. Navigate to your account settings, click on 'Subscription,' and choose the plan that suits you best. Changes take effect immediately, and you’ll only be charged the prorated amount for upgrades."
+    },
+    {
+      "question": "What is your refund policy?",
+      "answer": "We offer a 30-day refund policy for all subscription plans. If you're unsatisfied with our service, contact our support team within 30 days of your purchase to request a refund. Refunds are processed within 5-7 business days after approval."
+    },
+    {
+      "question": "How can I contact customer support?",
+      "answer": "You can reach our customer support team 24/7 via live chat on our website or by emailing support@example.com. For urgent issues, we recommend using live chat for the fastest response."
+    },
+    {
+      "question": "What features are included in the premium plan?",
+      "answer": "The premium plan includes access to all features, including priority customer support, exclusive tools, unlimited usage, and early access to new features. Additionally, premium members receive free updates and invitations to special webinars."
+    },
+    {
+      "question": "How do I cancel my subscription?",
+      "answer": "To cancel your subscription, go to your account settings, select 'Subscription,' and click on 'Cancel Plan.' Follow the steps, and your subscription will be canceled immediately. You’ll still have access until the end of your billing cycle."
+    },
+    {
+      "question": "How secure is my personal data?",
+      "answer": "We take your data security seriously. All personal information is encrypted and stored on secure servers. We also comply with GDPR and other privacy regulations to ensure your information is handled with care."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept a variety of payment methods, including major credit cards like Visa, MasterCard, and American Express. Additionally, we accept PayPal and bank transfers. For large enterprise accounts, customized payment options may be available upon request."
+    },
+    {
+      "question": "Are there any discounts for students or non-profits?",
+      "answer": "Yes! We offer special discounts for students and non-profits. To apply, submit proof of eligibility (e.g., a student ID or non-profit certificate) through our contact form. Approved applicants will receive a discount code to use during checkout."
     }
   ]
