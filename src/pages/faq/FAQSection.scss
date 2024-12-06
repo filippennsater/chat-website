@@ -11,14 +11,14 @@
     
     align-items: center;
     justify-content: top;
-    padding-top: calc(150px + 5%);
+    padding-top: calc(150px + 3%);
     object-fit: contain;
     z-index: -1;
     overflow: hidden;
 }
 
 .QS-container {
-    background-color: #ffffff;
+    background-color: #2a2a4e;
     width: calc(200px + 40vw);
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@
 }
 
 .FAQ-header-container {
-    background-color: white;
+    background-color: #2a2a4e;
     width: 100%;
     height: calc(60px + 6vw);
     display: flex;
@@ -42,11 +42,11 @@
     align-items: left;
     object-fit: contain;
     overflow: hidden;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
 }
 
 .Q-container {
-    background-color: #ffffff;
+    background-color: #2a2a4e;
     width: calc(200px + 40vw);
     display: flex;
     flex-direction: column;
@@ -54,24 +54,24 @@
     object-fit: contain;
     overflow: hidden;
     margin-bottom: calc(20px);
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
 
 .FAQ-header {
-    color: black;    
+    color: white;    
     font-family: "Mate SC", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size: calc(30px + 1vw);
+    font-size: calc(30px + 1.5vw);
     margin-top: calc(15px + 1vw);
     letter-spacing: 2px;
     font-weight: bold;
 }
 
 .Q-header {
-    color: black;
+    color: white;
     font-family: "Mate SC", system-ui;
     font-weight: 400;
     font-size: calc(20px + 0.7vw);
@@ -79,7 +79,7 @@
   }
 
   .Q-answer {
-    color: black;
+    color: white;
     font-family: "Mate SC", system-ui; /* Same as Q-header */
     font-size: calc(20px + 0.7vw);
     padding: 10px;
@@ -93,5 +93,5 @@
     padding: 10px;
   }
   .Q-container:hover {
-    background-color: #f4f4f4;
+    background-color: #393964;
   }
