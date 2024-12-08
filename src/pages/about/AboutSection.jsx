@@ -9,8 +9,13 @@ function AboutSection() {
 
             <div className='about-1-container'>
 
-                
+                <div className='left-about'>
 
+                </div>
+
+                <div className='right-about'>
+
+                </div>
             </div>
 
         </div>
