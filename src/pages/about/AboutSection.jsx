@@ -7,7 +7,7 @@ function AboutSection() {
 
         <div className='about-container'>
 
-            <div className='cards-container'>
+            <div className='about-1-container'>
 
                 
 
