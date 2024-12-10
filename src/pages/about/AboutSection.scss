@@ -21,10 +21,11 @@
 .about-1-container{
     background-color: green;
     min-height: 100px;
-    height: 200px;
+    height: flex;
     width: 100%;
     display: flex;
     margin-top: calc(100px + 10vw);
+    flex-flow: row;
 
     align-items: center;
     justify-items: center;
@@ -65,6 +66,9 @@
 
 @media screen and (max-width: 1700px) {
 
+    .about-1-container{
+        flex-flow: column;
+    }
     
 }
 
