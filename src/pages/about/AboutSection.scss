@@ -50,9 +50,12 @@
     overflow: hidden;
 }
 .right-about{
+    color: white;
+    font-family: "Mate SC", system-ui;
+    font-size: calc(18px + 0.7vw);
     background-color: red;
     min-height: 100px;
-    height: 200px;
+    //height: 200px;
     width: 50%;
     display: flex;
 
