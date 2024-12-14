@@ -1,26 +1,30 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../../App.css';
 import './AboutSection.scss';
+import aboutData from './aboutData.json';
 
 function AboutSection() {
+    const [data, setData] = useState([]);
+
+    useEffect(() => {
+        // Fetch data from aboutData.json
+        setData(aboutData);
+    }, []);
+
     return (
-
         <div className='about-container'>
-
-            <div className='about-1-container'>
-
-                <div className='left-about'>
-                    <img src='/images/oig2.jpg' alt='cool im' />
+            {data.map((item, index) => (
+                <div key={index} className='about-1-container'>
+                    <div className='left-about'>
+                        <img src={item.picture} alt={`about-pic-${index}`} />
+                    </div>
+                    <div className='right-about'>
+                        {item.text}
+                    </div>
                 </div>
-
-                <div className='right-about'>
-                    I created an HR AI chatbot to streamline and improve access to HR-related information for employees in municipal and government-funded organizations. Many HR departments face challenges with repetitive questions, limited availability, and administrative workload, which can hinder efficiency. By offering an AI-powered chatbot, employees can quickly get answers to common queries 24/7, reducing response times and improving satisfaction. This solution allows HR teams to focus on more complex, value-driven tasks while ensuring consistent and reliable support for employees. Ultimately, the chatbot enhances communication, saves time, and contributes to a more efficient workplace.
-                </div>
-            </div>
-
+            ))}
         </div>
-
-    )
+    );
 }
 
-export default AboutSection
+export default AboutSection;
