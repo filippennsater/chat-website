@@ -14,7 +14,7 @@ function AboutSection() {
     return (
         <div className='about-container'>
             {data.map((item, index) => (
-                <div key={index} className='about-1-container'>
+                <div key={index} className='about-content-container'>
                     <div className='left-about'>
                         <img src={item.picture} alt={`about-pic-${index}`} />
                     </div>

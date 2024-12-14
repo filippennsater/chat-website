@@ -12,19 +12,21 @@
     display: flex;
     
     align-items: top;
-    justify-content: center;
+    //justify-content: center;
     object-fit: contain;
     z-index: 21;
     overflow: hidden;
+    flex-direction: column;
+    padding-top:  calc(100px + 10vw);;
 }
 
-.about-1-container{
+.about-content-container{
     background-color: green;
     min-height: 100px;
     height: flex;
     width: 100%;
     display: flex;
-    margin-top: calc(100px + 10vw);
+    //margin-top: calc(100px + 10vw);
     flex-flow: row;
 
     align-items: center;
@@ -33,9 +35,10 @@
     object-fit: contain;
     z-index: 21;
     overflow: hidden;
+    margin-bottom: calc(100px + 5vw);
 }
 
-.left-about{
+.left-about {
     background-color: blue;
     min-height: 100px;
     height: 200px;
@@ -43,12 +46,16 @@
     display: flex;
 
     align-items: center;
-    justify-items: center;
     justify-content: center;
-    object-fit: contain;
-    z-index: 21;
-    overflow: hidden;
+    overflow: hidden; // Prevents overflow
 }
+
+.left-about img {
+    height: 100%;       // Makes the image as tall as the parent div
+    width: auto;        // Adjusts the width proportionally to maintain aspect ratio
+    object-fit: contain; // Ensures the entire image is visible without cropping
+}
+
 .right-about{
     color: white;
     font-family: "Mate SC", system-ui;
@@ -69,7 +76,7 @@
 
 @media screen and (max-width: 1700px) {
 
-    .about-1-container{
+    .about-content-container{
         flex-flow: column;
     }
     
