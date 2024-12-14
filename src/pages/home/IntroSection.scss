@@ -5,7 +5,7 @@
 
 .intr-container {
     //background-color: #703A7D;
-    background: linear-gradient(60deg, rgb(206, 206, 206) 0%, rgb(231, 231, 231) 35%, rgb(255, 255, 255) 100%);
+    background: linear-gradient(60deg, rgb(11, 11, 19) 0%, rgb(35, 34, 51) 35%, rgb(18, 17, 27) 100%);
     width: 100%;
     min-height: calc(350px + 20vw);
     height: flex;
@@ -44,6 +44,7 @@
 }
 
 .intr-text-container{
+    color: white;
     display: flex;
     width: 70%;
     margin-left: 2%;
@@ -74,7 +75,7 @@
     font-family: "Mate SC", serif;
     font-weight: 400;
     font-style: normal;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: calc(16px + 0.7vw);
     line-height: 1.2;
 

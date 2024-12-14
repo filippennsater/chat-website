@@ -4,44 +4,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
 
-.about-container{
-    background-color: #48475f;
+.about-container {
+    background-color: #333249;
     min-height: 100vh;
-    height: flex;
     width: 100%;
     display: flex;
-    
-    align-items: top;
-    //justify-content: center;
+    align-items: flex-start; // Aligns content to the top
+    justify-content: center; // Centers content horizontally
     object-fit: contain;
     z-index: 21;
     overflow: hidden;
     flex-direction: column;
-    padding-top:  calc(100px + 10vw);;
+    padding-top: calc(100px + 6vw);
 }
 
-.about-content-container{
-    background-color: green;
-    min-height: 100px;
-    height: flex;
-    width: 100%;
+.about-content-container {
+    //background-color: green;
+    height: 500px;
+    width: calc(100% - 15vw);
     display: flex;
-    //margin-top: calc(100px + 10vw);
     flex-flow: row;
 
     align-items: center;
-    justify-items: center;
-    justify-content: center;
+    justify-content: center; // Centers content inside this container
     object-fit: contain;
     z-index: 21;
     overflow: hidden;
-    margin-bottom: calc(100px + 5vw);
+
+    margin: 0 auto; /* Centers the container itself horizontally */
+    margin-bottom: calc(100px + 3vw);
 }
 
 .left-about {
-    background-color: blue;
-    min-height: 100px;
-    height: 200px;
+    //background-color: blue;
+    height: 100%;
     width: 50%;
     display: flex;
 
@@ -54,17 +50,20 @@
     height: 100%;       // Makes the image as tall as the parent div
     width: auto;        // Adjusts the width proportionally to maintain aspect ratio
     object-fit: contain; // Ensures the entire image is visible without cropping
+    border-radius: 15px;
 }
 
 .right-about{
     color: white;
+    //background-color: red;
     font-family: "Mate SC", system-ui;
     font-size: calc(18px + 0.7vw);
-    background-color: red;
-    min-height: 100px;
-    //height: 200px;
+    
+    height: 100%;
     width: 50%;
     display: flex;
+    padding-left: 5vw;
+    padding: 5vw;
 
     align-items: center;
     justify-items: center;
