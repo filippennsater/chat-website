@@ -32,7 +32,7 @@
     overflow: hidden;
 
     margin: 0 auto; /* Centers the container itself horizontally */
-    margin-bottom: calc(100px + 3vw);
+    margin-bottom: calc(5vw);
 }
 
 .left-about {
@@ -62,7 +62,7 @@
     height: 100%;
     width: 50%;
     display: flex;
-    padding-left: 5vw;
+    //padding-left: 5vw;
     padding: 5vw;
 
     align-items: center;
@@ -74,10 +74,31 @@
 }
 
 @media screen and (max-width: 1700px) {
-
-    .about-content-container{
+    .about-content-container {
         flex-flow: column;
     }
-    
+
+    .left-about {
+        height: 70%;
+        width: 70%;
+        //justify-content: flex-end; // Align image to the bottom
+        align-items: flex-end;
+    }
+
+    .left-about img {
+        height: 80%;
+    }
+
+    .right-about {
+        padding-top: 50px;
+        //justify-content: flex-start; // Align content to the top
+        align-items: flex-start;
+        width: 80%;
+    }
+
+    .about-content-container {
+        height: 650px;
+        width: 100%;        
+    }
 }
 
