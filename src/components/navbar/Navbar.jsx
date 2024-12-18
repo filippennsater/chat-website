@@ -72,9 +72,6 @@ function Navbar() {
                             <li><Link to='/assistant'>Assistent</Link></li>
                             <li><Link to='/contact'>Contact</Link></li>
                         </ul>
-                        <div className='prof-icon' onClick={() => { handleClock(); closeMobileMenu(); }}>
-                        <i className={clock ? "fa-regular fa-user" : "fa-solid fa-user"}></i>
-                    </div>
                     </div>
                     <span className="navTrigger">
                         <i></i>
