@@ -62,7 +62,7 @@ function Navbar() {
             <nav className="nav">
                 <div className="container">
                     <div className="logo">
-                        <Link to='/' className='navbar-logo'/>
+                        <Link to='/' className='navbar-logo' />
                     </div>
                     <div id="mainListDiv" className="main_list">
                         <ul className="navlinks">
@@ -72,6 +72,10 @@ function Navbar() {
                             <li><Link to='/assistant'>Assistent</Link></li>
                             <li><Link to='/contact'>Contact</Link></li>
                         </ul>
+                    </div>
+                    <div className="auth-buttons">
+                        <Link to="/login">Login</Link>
+                        <Link to="/signup">Signup</Link>
                     </div>
                     <span className="navTrigger">
                         <i></i>
