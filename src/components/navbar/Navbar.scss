@@ -2,8 +2,8 @@
 
 /* Login/Signup buttons styling */
 .auth-buttons {
-    justify-self: end;
-    margin-right: 0px;
+  justify-self: end;
+  margin-right: 0px;
   display: flex;
   gap: 1rem;
   align-items: center;
@@ -26,7 +26,6 @@
 }
 
 /* Navbar section */
-
 .navbar-logo {
   background: url('../../../public/images/GC-LOGO.png') center center/cover no-repeat;
   color: #ffffff;
@@ -122,14 +121,6 @@
     transition: all 0.4s ease;
 }
 
-
-/* Media qurey section */
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .container {
-        margin: 0;
-    }
-}
 
 @media screen and (max-width:768px) {
     .navbar-logo {

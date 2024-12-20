@@ -60,7 +60,6 @@ function Navbar() {
     return (
         <>
             <nav className="nav">
-                <div className="container">
                     <div className="logo">
                         <Link to='/' className='navbar-logo' />
                     </div>
@@ -82,7 +81,6 @@ function Navbar() {
                         <i></i>
                         <i></i>
                     </span>
-                </div>
             </nav>
         </>
     );
