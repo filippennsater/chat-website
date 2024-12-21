@@ -60,27 +60,28 @@ function Navbar() {
     return (
         <>
             <nav className="nav">
-                    <div className="logo">
-                        <Link to='/' className='navbar-logo' />
-                    </div>
-                    <div id="mainListDiv" className="main_list">
-                        <ul className="navlinks">
-                            <li><Link to='/'>Home</Link></li>
-                            <li><Link to='/about'>About</Link></li>
-                            <li><Link to='/FAQ'>FAQ</Link></li>
-                            <li><Link to='/assistant'>Assistent</Link></li>
-                            <li><Link to='/contact'>Contact</Link></li>
-                        </ul>
-                    </div>
-                    <div className="auth-buttons">
-                        <Link to="/login">Login</Link>
-                        <Link to="/signup">Signup</Link>
-                    </div>
-                    <span className="navTrigger">
-                        <i></i>
-                        <i></i>
-                        <i></i>
-                    </span>
+                <div className="logo">
+                    <Link to='/' className='navbar-logo' />
+                </div>
+                <div id="mainListDiv" className="main_list">
+                    <ul className="navlinks">
+                        <li><Link to='/'>Home</Link></li>
+                        <li><Link to='/about'>About</Link></li>
+                        <li><Link to='/FAQ'>FAQ</Link></li>
+                        <li><Link to='/assistant'>Assistent</Link></li>
+                        <li><Link to='/contact'>Contact</Link></li>
+                        <div className="auth-buttons">
+                            <Link to="/login">Login</Link>
+                            <Link to="/signup">Signup</Link>
+                        </div>
+                    </ul>
+                </div>
+
+                <span className="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
             </nav>
         </>
     );

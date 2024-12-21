@@ -4,10 +4,10 @@
 .auth-buttons {
   justify-self: end;
   margin-right: 0px;
-  display: flex;
+  display: absolute;
   gap: 1rem;
   align-items: center;
-  margin-left: auto; /* Push buttons to the right */
+  margin-left: 5; /* Push buttons to the right */
 }
 
 .auth-buttons a {
