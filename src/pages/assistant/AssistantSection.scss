@@ -10,7 +10,7 @@
 .chat-window {
     height: calc(400px + 25vw);
     width: calc(300px + 20vw);
-    background: #fff;
+    background: #242424;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -34,27 +34,29 @@
 }
 
 .user-message {
-    background: #007bff;
+    background: #414141;
     color: white;
     align-self: flex-end;
 }
 
 .assistant-message {
-    background: #f1f0f0;
-    color: #333;
+    background: #414141;
+    color: #ffffff;
     align-self: flex-start;
 }
 
 .input-area {
     display: flex;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #555555;
     padding: 8px;
 }
 
 input {
+    background: #414141;
+    color: white;
     flex: 1;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #555555;
     border-radius: 4px;
     font-size: 14px;
 }
