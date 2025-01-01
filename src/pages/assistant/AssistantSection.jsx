@@ -1,27 +1,24 @@
 import React, { useState } from 'react';
 import '../../App.css';
 import './AssistantSection.scss';
-import axios from 'axios'; // Install axios if not already done: npm install axios
+import axios from 'axios';
 
 function AssistantSection() {
-    const [messages, setMessages] = useState([]); // Holds chat history
-    const [userInput, setUserInput] = useState(''); // Holds current user input
+    const [messages, setMessages] = useState([]);
+    const [userInput, setUserInput] = useState('');
 
-    // Function to send message to OpenAI API
     const sendMessage = async () => {
-        if (!userInput.trim()) return; // Don't send empty messages
+        if (!userInput.trim()) return;
 
-        // Add user message to messages state
         const newMessages = [...messages, { sender: 'user', text: userInput }];
         setMessages(newMessages);
         setUserInput('');
 
         try {
-            // Call OpenAI API
             const response = await axios.post(
-                'https://api.openai.com/v1/chat/completions', // API endpoint
+                'https://api.openai.com/v1/chat/completions',
                 {
-                    model: 'gpt-3.5-turbo', // Model name
+                    model: 'gpt-3.5-turbo',
                     messages: newMessages.map((msg) => ({
                         role: msg.sender === 'user' ? 'user' : 'assistant',
                         content: msg.text,
@@ -35,7 +32,6 @@ function AssistantSection() {
                 }
             );
 
-            // Add GPT response to messages state
             setMessages([
                 ...newMessages,
                 { sender: 'assistant', text: response.data.choices[0].message.content },
@@ -46,6 +42,12 @@ function AssistantSection() {
                 ...newMessages,
                 { sender: 'assistant', text: 'Sorry, there was an error. Please try again.' },
             ]);
+        }
+    };
+
+    const handleKeyDown = (e) => {
+        if (e.key === 'Enter') {
+            sendMessage();
         }
     };
 
@@ -67,6 +69,7 @@ function AssistantSection() {
                         type='text'
                         value={userInput}
                         onChange={(e) => setUserInput(e.target.value)}
+                        onKeyDown={handleKeyDown} // Added event listener for Enter key
                         placeholder='Type your message...'
                     />
                     <button onClick={sendMessage}>Send</button>
