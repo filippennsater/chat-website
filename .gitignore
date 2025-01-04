@@ -23,4 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # views
+src/pages/assistant/Assistant.env
 src/pages/assistant/AssistantSection.jsx
