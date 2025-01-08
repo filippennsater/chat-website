@@ -7,7 +7,7 @@ import $ from 'jquery';
 export const ThemeContext = createContext(null);
 
 function Navbar() {
-    
+
     const loggedIn = false; // Set to `true` for logged-in state, `false` for logged-out state. Hardcoded state to simulate login status
 
     useEffect(() => {
@@ -72,19 +72,19 @@ function Navbar() {
                         <li><Link to='/FAQ'>FAQ</Link></li>
                         <li><Link to='/assistant'>Assistent</Link></li>
                         <li><Link to='/contact'>Contact</Link></li>
-                        <div className="auth-buttons">
-                            {loggedIn ? (
-                                // Show Logout button when logged in
-                                <Link to="/logout">Logout</Link>
-                            ) : (
-                                // Show Login and Signup buttons when not logged in
-                                <>
-                                    <Link to="/login">Login</Link>
-                                    <Link to="/signup">Signup</Link>
-                                </>
-                            )}
-                        </div>
                     </ul>
+                    <div className="auth-buttons">
+                        {loggedIn ? (
+                            // Show Logout button when logged in
+                            <Link to="/logout">Logout</Link>
+                        ) : (
+                            // Show Login and Signup buttons when not logged in
+                            <>
+                                <Link to="/login">Login</Link>
+                                <Link to="/signup">Signup</Link>
+                            </>
+                        )}
+                    </div>
                 </div>
 
                 <span className="navTrigger">
