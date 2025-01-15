@@ -72,6 +72,8 @@ function Navbar() {
                         <li><Link to='/FAQ'>FAQ</Link></li>
                         <li><Link to='/assistant'>Assistent</Link></li>
                         <li><Link to='/contact'>Contact</Link></li>
+                        <li><Link to="/login">Login</Link></li>
+                        <li><Link to="/signup">Signup</Link></li>
                     </ul>
                     <div className="auth-buttons">
                         {loggedIn ? (
