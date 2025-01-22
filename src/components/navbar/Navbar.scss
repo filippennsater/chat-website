@@ -2,11 +2,12 @@
 
 .auth-buttons {
     position: absolute; /* Position it independently of the flow */
-    top: 50px; /* Adjust the vertical position */
+    top: calc(20px + 1vw); /* Adjust the vertical position */
     right: 50px; /* Adjust the horizontal position */
     display: flex;
     gap: 1rem;
     align-items: center;
+    line-height: 50px;
 }
 
 .auth-buttons a {
