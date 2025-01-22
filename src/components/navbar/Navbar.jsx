@@ -8,11 +8,11 @@ export const ThemeContext = createContext(null);
 
 function Navbar() {
     const loggedIn = false; // Change this based on your authentication logic
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 1400);
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 1450);
 
     useEffect(() => {
         // Update isMobile state on window resize
-        const handleResize = () => setIsMobile(window.innerWidth <= 1400);
+        const handleResize = () => setIsMobile(window.innerWidth <= 1450);
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
     }, []);
