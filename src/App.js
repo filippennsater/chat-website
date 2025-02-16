@@ -29,6 +29,11 @@ function App() {
           <Route path="/FAQ" exact Component={FAQ} />
           <Route path="/assistant" exact Component={Assistant} />
           <Route path="/contact" exact Component={Contact} />
+
+          <Route path="/profile" exact Component={Profile} />
+          <Route path="/login" exact Component={Login} />
+          <Route path="/logout" exact Component={Logout} />
+          <Route path="/signup" exact Component={Signup} />
         </Routes>
         <Footer />
       </Router>
