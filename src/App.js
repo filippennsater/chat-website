@@ -14,6 +14,10 @@ import FAQ from './pages/faq/FAQ';
 import Assistant from './pages/assistant/Assistant';
 import Contact from './pages/contact/Contact';
 
+import Profile from './pages/user/profile/Profile';
+import Login from './pages/user/login/Login';
+import Logout from './pages/user/logout/Logout';
+import Signup from './pages/user/signup/Signup';
 
 
 function App() {

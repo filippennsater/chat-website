@@ -1,0 +1,204 @@
+.profile-container {
+    background-color: #572D87;
+    width: 100%;
+    height: calc(800px + 15vw);
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    object-fit: contain;
+    z-index: 21;
+    overflow: hidden;
+}
+
+.profile-info-container{
+    background-color: #9FCE9A;
+    width: calc(200px + 35vw);
+    min-height: calc(470px + 9vw);
+    height: flex;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    //flex-direction: column;
+    margin-top: calc(50px + 5vw);
+    border-radius: 20px;
+    box-shadow: 3px 3px 20px black;
+
+    //align-items: center;
+    object-fit: contain;
+    z-index: 21;
+    overflow: hidden;
+    //padding: calc(15px + 1vw);
+}
+
+.profile-left-container{
+    //background-color: rgb(182, 172, 172);
+    width: 40%;
+    height: 100%;
+    display: flex;
+    z-index: 30;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    //padding: 60px 40px 60px 40px;
+}
+
+.profile-right-container{
+    //background-color: rgb(185, 87, 87);
+    width: 60%;
+    height: 100%;
+    display: flex;
+    z-index: 30;
+    justify-content: top;
+    align-items: top;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.profile-picture-container{
+    background-color: #000000;
+    width: calc(80px + 4vw);
+    height: calc(100px + 4vw);
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px black;
+    margin-top: 45%;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    z-index: 21;
+    overflow: hidden;
+}
+
+.profile-name-container{
+    //background-color: #000000;
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: calc(12px + 0.6vw);
+    font-weight: bold;
+    width: flex;
+    height: flex;
+    display: flex;
+    margin-top: calc(7px + 2vw);
+    align-items: center;
+    object-fit: contain;
+    z-index: 21;
+    overflow: hidden;
+}
+
+.profile-info-head-container{
+    //background-color: #000000;
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: calc(12px + 0.6vw);
+    font-weight: bold;
+    width: flex;
+    height: flex;
+    display: flex;
+    margin-top: calc(15px + 1vw);
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    z-index: 21;
+    overflow: hidden;
+}
+
+.profile-info-text-container{
+    //background-color: #000000;
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: calc(12px + 0.6vw);
+    width: flex;
+    height: flex;
+    display: flex;
+    margin-top: calc(7px + 0.5vw);
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    z-index: 21;
+    overflow: hidden;
+}
+
+.settings-container{
+    //background-color: #000000;
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: calc(12px + 0.6vw);
+    width: flex;
+    height: flex;
+    display: flex;
+    margin-top: calc(100px + 0.5vw);
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    z-index: 21;
+    overflow: hidden;
+}
+
+.settings-wheel-container{
+    //background-color: #000000;
+    color: #572D87;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: calc(18px + 0.6vw);
+    width: flex;
+    height: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    z-index: 21;
+    overflow: hidden;
+}
+
+.settings-wheel-container:hover{
+    color: #361c53;
+    cursor: pointer;
+}
+
+.settings-wheel-container:active{
+    color: #190d27;
+}
+
+
+.redTextProf-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redTextProf {
+    display: flex;
+    color: red;
+    margin-top: 10px;
+    font-size: calc(9px + 0.3vw);
+    font-weight: bold;
+    margin-top: 10px;  
+}
+
+
+
+@media screen and (max-width: 1700px) {
+    .profile-left-container{
+        width: 100%;
+        height: 35%;
+    }
+    
+    .profile-right-container{
+        width: 100%;
+        height: 65%;
+    }
+
+    .profile-picture-container{
+        margin-top: calc(55px - 1.5vw);
+    }
+
+    .profile-right-container{
+        padding-top: 20px;
+    }
+
+    .settings-container{
+        margin-top: 50px;
+    }
+  }
