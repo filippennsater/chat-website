@@ -9,7 +9,6 @@ function HomeSection() {
     return (
 
         <div className='hero-container'>
-            {/*<video className='vid' src='/videos/duck.mp4' autoPlay loop muted />*/}
 
             <div className='selfie-container'>
                 <figure className="home-self" />
